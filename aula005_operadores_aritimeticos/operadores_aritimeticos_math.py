@@ -1,5 +1,6 @@
 # imports
 import os
+import math
 
 
 # limpar o terminal
@@ -34,16 +35,16 @@ dividendo = float(input('Entre como dividendo: '))
 divisor = float(input('Entre com o divisor: '))
 
 print()
-print('--- RAIZ')
-print('_'*70)
-valor = float(input('Entre com o valor: '))
-Raz
+print('--- RAIZ QUADRADA')
+print('-'*70)
+numero = float(input('Entre com um número desejado: '))
 
 # Processamento
 soma = parcela_1 + parcela_2
 diferanca = minuendo - subtraendo
 produto = multiplicando * multiplicador
 quociente = dividendo / divisor
+raiz_quadrada = math.sqrt(numero)
 
 # Saída
 print('='*70)
@@ -53,6 +54,7 @@ print(f'A soma de {parcela_1} + {parcela_2} é: {soma}')
 print(f'A subtração de {minuendo} - {subtraendo} é: {diferanca}')
 print(f'A multiplicação de {multiplicando} x {multiplicador} é: {produto}')
 print(f'A diferença de {dividendo} / {divisor} é {quociente}')
+print(f'A raiz quadrada de {numero} é: {raiz_quadrada}')
 
 # Seguindo os passos anteriores, desenvolva o restante
-# Acrescente a raiz quadrada e a rais cúbica.
+# Acrescente a raiz quadrada e a raiz cúbica.

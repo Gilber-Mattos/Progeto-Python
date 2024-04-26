@@ -18,4 +18,4 @@ divisao = dividendo / divisor
 # Saída
 print()
 print('-'*70)
-print(f'Resultado da divisão: {divisao: .3f}')
+print(f'Resultado da divisão: {divisao: .4f}')

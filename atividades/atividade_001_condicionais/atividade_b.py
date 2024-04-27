@@ -22,10 +22,10 @@ numero3 = float(input('Digite o 3º numero: '))
 print('='*70)
 
 # QUAL NÚMERO É O MAIOR
-if (numero1 > numero2 and numero1 > numero3):
+if (numero1 > numero2 > numero3):
     print(f'{numero1: .0f} é o Maior')
     
-elif (numero2 > numero1 and numero2 > numero3):
+elif (numero2 > numero1 > numero3):
     print(f'{numero2: .0f} é o Maior')
 
 else:
@@ -34,10 +34,10 @@ else:
 print('-'*70)
 
 # QUAL NÚMERO É O MENOR
-if (numero1 < numero2 and numero1 < numero3):
+if (numero1 < numero2 < numero3):
     print(f'{numero1: .0f} é o Menor')
     
-elif (numero2 < numero1 and numero2 < numero3):
+elif (numero2 < numero1 < numero3):
     print(f'{numero2: .0f} é o Menor')
 
 else:

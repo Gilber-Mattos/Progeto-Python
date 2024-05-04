@@ -12,7 +12,7 @@ print('='*70)
 real = float(input('Digite o valor em Real: '))
 
 # Processamento
-dolar = real * 5.20
+dolar = real / 5.20
 
 # Saída
 print()
